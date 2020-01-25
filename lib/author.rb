@@ -11,3 +11,4 @@ class Author
     post  = Post.new(post_name)
     add_post(post)
 end 
+end 
