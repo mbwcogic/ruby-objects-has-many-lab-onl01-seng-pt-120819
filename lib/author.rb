@@ -12,8 +12,8 @@ class Author
   end
  
  
- #def add_post(post_name) 
-    #post  = Post.new(post_name)
-   # add_post(post)
-#end 
+ def add_post(post_name) 
+    post  = Post.new(post_name)
+   add_post(post)
+ end 
 end 
