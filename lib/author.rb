@@ -4,4 +4,7 @@ class Author
   def initialize(name)
     @name = name 
   end 
+  def post 
+    Post.all.select {|post| post.artist == self}
+  end
 end 
